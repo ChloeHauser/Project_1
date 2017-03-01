@@ -1,3 +1,31 @@
 body {
-    background-color:red;
+    background-color:#D69995;
+}
+
+header {
+    text-align: center;
+    font-size: 75;
+    font-family: georgia;
+    background-color: #9D8381;
+    color: azure;
+}
+/*
+button {
+    background-color:#9D8381;
+    height: 50;
+    width: 120;
+    border-top-color: aliceblue;
+    border-left-color: aliceblue;
+    border-bottom-color: aliceblue;
+    border-right-color: aliceblue;
+    animation:;
+}
+*/
+p {
+    font-size: 50px;
+}
+.w3-center {
+    text-align: center;
+    text-emphasis-position: left;
+    font-size: 20;
 }
