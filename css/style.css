@@ -6,26 +6,146 @@ header {
     text-align: center;
     font-size: 75;
     font-family: georgia;
-    background-color: #9D8381;
-    color: azure;
+    background-color: #1A6D9D;
+    color: azure;  
 }
-/*
-button {
-    background-color:#9D8381;
-    height: 50;
-    width: 120;
-    border-top-color: aliceblue;
-    border-left-color: aliceblue;
-    border-bottom-color: aliceblue;
-    border-right-color: aliceblue;
-    animation:;
-}
-*/
+
 p {
-    font-size: 50px;
+    font-size: 35px;
+    margin: 20;
 }
+
 .w3-center {
     text-align: center;
     text-emphasis-position: left;
     font-size: 20;
+    margin: 20; 
+}
+
+.dropbtn {
+    background-color: #1A6D9D;
+    color: aliceblue;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dropdown {
+    position:relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 3px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 16;
+}
+
+.dropdown-content a:hover {background-color: #4E99D6}
+
+
+.dropdown:hover .dropdown-content {
+    display: table-footer-group;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #42749D;
+}
+
+.image-circle {
+    max-width: 100%;
+    height: auto;
+    position: center;
+    align-content: center;
+}
+
+.image-circle {
+    opacity: 0.7;
+    height: 300;
+    align-content: center;
+    margin: 40;
+}
+    
+button {
+     font-size: 16px;
+     color: aliceblue;
+     background-color: #00549D;
+     padding: 12px 52px;
+}      
+
+.paragraph {
+    font-size: 10;
+    background-color: #1A6D9D;
+    color:white;
+}
+
+.col-md-6 > p {
+    Font-size: 20;  
+}
+
+footer > p {
+    font-size: 20;
+    align-content:space-between;
+    display: inline-flex;
+}
+
+p1 {
+    font-size: 30;
+}
+
+p2 {
+    font-size: 20;
+    margin:100;
+}
+
+p3 {
+    font-size: 20;
+}
+
+.image-circle{
+    border-radius: 50%;
+    height: auto;
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+}
+
+.image-logo {
+    width:50%;
+    max-height: 500px;
+    text-align: center;
+    margin: 0 auto;
+    display:block;
+}
+
+.picture-center {
+    text-align: center;
+}
+
+.header-center {
+  font-size: 30;
+}
+
+.header-center2 {
+    text-align: middle;
+}
+
+.header-photo {
+    width: 10.5%;
+}
+
+h3 {
+    font-weight: bold;
 }
