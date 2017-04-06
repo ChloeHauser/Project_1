@@ -1,139 +1,223 @@
 <DOCTYPE html>
-    
+
 <html>
-    
+
 <head>
-    
+
     <meta http-equive="Content-Type" content="text/html"; charset="utf-8"/>
-   
+
     <meta name="viewport" content="width=device-width", height=device-height, initial-scale=1, max-scale=1, user-scalable='no'>
-    
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <meta http-equive="X-UA-Compatible" content="IE=EDGE">
-    
+
     <!--Links to css files or font files-->
-    
+
     <link rel="stylesheet" type='text/css' href="css/bootstrap.min.css">
-    
+
     <link rel="stylesheet" type='text/css' href="css/style.css">
-    
+
     <title>Boiler Plate</title>
-    
+
 </head>
-    
-<body>  
-    
+
+<body>
+
 <div class='container-fluid'>
-        
+
         <header class='header-center2 img-responsive'>
-           <img class='header-photo' src='images/sweet-crude-logo-animated%20(1).gif' alt='logo' align='center'> 
-           
-           Ice Kream 
+           <img class='header-photo' src='images/sweet-crude-logo-animated%20(1).gif' alt='logo' align='center'>
+
+    Ice Kream 
            
            <img class='header-photo' src='images/sweet-crude-logo-animated%20(1).gif' alt='logo' align='center'>
         </header>
-            
-   
-       
-        
+
 <!--     Top Menu       -->
         
-        <div class="w3-D69995 w3-xlarge w3-padding-xlarge" style="max-width:1200px;margin:auto" background-color='#D69995;'></div>
+        <div class="w3-D69995 w3-xlarge w3-padding-xlarge" style="max-width:1200px;margin:auto"></div>
 
-        <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:20px"></div>
-        
+        <div class="w3-main w3-content w3-padding"></div>
+
         <div class="w3-row-padding w3-padding-16 w3-center" id="ice cream"></div>
-        
-        
+
+
 <!--    Rows/images    -->
+
+         <div class='row'>
+            <div class='col-md-1' style= width:100%;></div>
+        </div>
         <div class='row'>
-            
+
             <div class='col-md-12'>
-                
+
                 <img class="image-logo"src="images/smis_rgb.png" alt="icecream" margin='0 auto'>
-                
+
             </div>
             
         </div>
         
         <div class='row'>
             
-                <div class='col-md-3 picture-center'> 
+                <div class='col-md-3 picture-center'>
                     
-                    <img class="image-circle img-repsonsive" src="images/oreo.jpg" alt="Ice cream"style="width:60%" margin="40">
-                    
-                </div>
-            
-               
-                <div class='col-md-3 picture-center'> 
-                    
-                    <img class="image-circle img-repsonsive" src="images/348s.jpg" alt="Ice cream" style="width:60%" margin="40">
+                    <img class="image-circle img-repsonsive" src="images/oreo.jpg" alt="Ice cream"style="width:60%" margin="40" data-toggle="modal" data-target="#oreo">
                     
                 </div>
-               
-                <div class='col-md-3 picture-center'> 
+
+
+                <div class='col-md-3 picture-center'>
+
+                    <img class="image-circle img-repsonsive" src="images/348s.jpg" alt="Ice cream" style="width:60%" margin="40" data-toggle="modal" data-target="#ice-cream-sandwich">
                     
-                    <img class="image-circle img-repsonsive" src="images/chocolate.jpg" alt="Ice cream" style="width:60%" margin="40">
+                </div>
+               
+                <div class='col-md-3 picture-center'>
+                    
+                    <img class="image-circle img-repsonsive" src="images/chocolate.jpg" alt="Ice cream" style="width:60%" margin="40" data-toggle="modal" data-target="#chocolate-carmel">
              
                 </div>
        
                 <div class='col-md-3 picture-center'>
                     
-                    <img class="image-circle img-repsonsive" src="images/mint-chocolate-chip-final-2.jpg" alt="Ice cream" style="width:60%" margin="40">
+                    <img class="image-circle img-repsonsive" src="images/mint-chocolate-chip-final-2.jpg" alt="Ice cream" style="width:60%" margin="40" data-toggle="modal" data-target="#red-velvet-mint">
              
                 </div>
         </div>
         
-        
 <!--    Short Paragraphs        -->
            <div class='row'>
-               
-                <center>
-                    <div class='col-md-6'>
-                        
-                    <p align="left-center">
-                        Dessert is the most wonderful part of a meal. It's cold, great for a hot summer day, and it's delicious! It can be served after almost every meal for everyone who likes it! Whether you have out-of-town guests, or are just entertaining family and friends, ice cream is the perfect after-meal treat!
-                    </p> 
-                        
-                    </div>
+
+
+            <div class='col-md-6'>
+                     
+                    <p align="justify">
+                        Dessert is the most wonderful part of a meal. It's cold, great for a hot summer day, and it's delicious! It can be served after almost every meal for everyone who likes it! Whether you have out-of-town guests, or are just entertaining family and friends, ice cream is the perfect treat!
+                    </p>
                     
-                </center>
-                <center>
+                    </div>
+
                     <div class='col-md-6'>
-                        
-                    <p align="right-center">
+
+                    <p align="justify">
                         You can buy ice cream for a birthday party, an afternoon snack, or even bring it to other special ocasions. Many happy memories can be made with such a delicious dessert. Over the years, it has become more delightful. There are now more than 1 million mouth-watering flavors.
                     </p>
-                        
+                         
                     </div>
-                    
-                </center>
+                   
+               
                
             </div>
     
-    
 <!--      header     -->
     
-        <div class="w3-quarter">
-            
-            <center>
-                
+        <div class="w3-quarter" align='center';>       
+
                 <h3>The Perfect Flavors</h3>
-                
-            </center>
-            
+
         </div>
-        
     
+<!--modals-->
+    <div class="modal fade" id="ice-cream-sandwich" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Ice Cream Sandwich</h4>
+      </div>
+      <div class="modal-body">
+        Although ice cream sandwiches were made by hand and distributed by New York street vendors in the early 1940s, it wasn't until 1945 that the first ice cream sandwiches were mass produced.
+          
+          <a href="http://www.marthastewart.com/315819/classic-ice-cream-sandwiches" role="button" data-toggle="modal">  Recipe</a>
+          
+      </div>
+      <div class="modal-footer">
+          <center>
+          <img src="images/Ice-Cream-Sandwich.jpg"></center>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <div class="modal fade" id="oreo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Oreo</h4>
+      </div>
+      <div class="modal-body">
+        Oreo cookies were first created in a New York City bakery and sold in a tin for 30 cents per pound. It remains a mystery exactly why the cookies are named Oreos. Oreos are the world’s best-selling cookie.
+          
+          <a href="http://www.errenskitchen.com/homemade-oreo-cookies/" role="button" data-toggle="modal">  Recipe</a>
+          
+      </div>
+      <div class="modal-footer">
+          <center>
+          <img src="images/Easy-Oreo-Ice-Cream-Cake.IMG_0212.jpg"></center>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <div class="modal fade" id="red-velvet-mint" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Ice Cream Cake</h4>
+      </div>
+      <div class="modal-body">
+        An ice cream cake is a cake that incorporates ice cream. A popular form is a three-layer cake, with a layer of ice cream between two layers of cake, although not all versions contain cake.
+          
+          <a href="http://allrecipes.com/recipe/20784/ice-cream-cake/" role="button" data-toggle="modal">  Recipe</a>
+          
+      </div>
+      <div class="modal-footer">
+          <center>
+          <img src="images/ice-cream-cakes.jpg"></center>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <div class="modal fade" id="chocolate-carmel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Chocolate Carmel</h4>
+      </div>
+      <div class="modal-body">
+        Enjoy spoonful after spoonful of decadent chocolate gelato with a luscious caramel sauce and gourmet chocolate curls. The chocolate caramel ice cream is super creamy and thick.
+          
+          <a href="http://bakerbynature.com/salted-caramel-chocolate-cake/" role="button" data-toggle="modal">  Recipe</a>
+          
+      </div>
+        
+      <div class="modal-footer">
+          <center>
+          <img src="images/salted_banana.jpg"></center>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!--      Dropdown Button  -->
         
-    <center>
-        
+   
+         <center> 
         <div class="dropdown">
-        
+      
             <button class="dropbtn">
                 Flavors
             </button>
-            
+           
         <div class="dropdown-content">
             
             <a href="http://www.epicurious.com/recipes/food/views/true-vanilla-ice-cream-51179020">
@@ -165,43 +249,42 @@
             </a>
             
         </div>
-            
+           
         </div>
-        
-    </center>
-        
+        </center> 
     
 <!--    Paragraphs    -->
         
         <div class="paragraph">
             
-        <center>
+        
             <p>Today the average American eats about 20 quarts of ice cream a year, the world's highest consumption, according to the International Dairy Foods Association..</p>
             
             <p>Craving for something sweet?</p>
             
-        </center>
+        
     </div>
         
 <!--   footer    -->
         
-        <footer>
+        <footer class='footy'>
             
             <p1 style="display: inline-flex;">
                 Contact information:
             </p1>
-            
+           <center>
             <p2>
-                chloe_hauser@usd368.org
+                Chloe_hauser@usd368.org
             </p2>
-            
+           </center>
             <p3>
                 913-544-7028
             </p3>
             
         </footer>
 </div> 
-    
+ <script src="js/jquery.min.js"></script> 
+    <script src="js/bootstrap.min.js"></script>
 </body>
     
 </html>
